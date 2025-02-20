@@ -26,7 +26,7 @@ export default function Header(){
         <header className=" overflow-hidden h-screen  relative  ">
 
             <motion.div style={{y}} className='relative h-full items-center justify-start flex '>
-                <video className="absolute top-0 left-0 w-full h-full object-cover" autoPlay loop muted>
+                <video className="absolute top-0 left-0 w-full h-full object-cover" autoPlay loop playsInline muted>
                     <source src="/vid/header_vid.mp4" type="video/mp4" />
                 </video>
                 <div className="absolute top-0 left-0 w-full h-full  bg-black opacity-50  "></div>
