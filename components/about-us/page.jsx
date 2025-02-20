@@ -37,7 +37,7 @@ export default function AboutUs() {
                 </div>
 
                 <div className="text-center mt-10 w-full flex items-start">
-                    <button  onClick={handleScrollToContact} className="px-6 py-3 bg-redPrimary text-white font-bold rounded-lg shadow-md hover:bg-[#fff] hover:text-redPrimary  border-2 border-redPrimary  duration-700 transition">
+                    <button  onClick={handleScrollToContact} className="px-6 py-3 text-xs lg:text-base bg-redPrimary text-white font-bold rounded-lg shadow-md hover:bg-[#fff] hover:text-redPrimary  border-2 border-redPrimary  duration-700 transition">
                         Rejoignez-nous dès maintenant 🦅
                     </button>
                 </div>

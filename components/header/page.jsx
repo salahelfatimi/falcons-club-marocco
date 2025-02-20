@@ -42,7 +42,7 @@ export default function Header(){
                     </p>
                     
                     <button 
-                        className=" hover:cursor-custom bg-greenPrimary py-3 px-6 text-white rounded-full  font-satoshi font-bold uppercase hover:bg-[#fff] hover:text-greenPrimary   border-2 border-greenPrimary   duration-700"
+                        className=" hover:cursor-custom text-xs lg:text-base bg-greenPrimary py-3 px-6 text-white rounded-full  font-satoshi font-bold uppercase hover:bg-[#fff] hover:text-greenPrimary   border-2 border-greenPrimary   duration-700"
                         onClick={handleScrollToContact}
                     >
                         Rejoignez-nous dès maintenant 🦅
