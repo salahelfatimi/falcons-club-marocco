@@ -29,7 +29,6 @@ export default function Header(){
                 <video className="absolute top-0 left-0 w-full h-full object-cover" autoPlay loop muted>
                     <source src="/vid/header_vid.mp4" type="video/mp4" />
                 </video>
-                
                 <div className="absolute top-0 left-0 w-full h-full  bg-black opacity-50  "></div>
                 <div className=" hidden lg:block absolute top-0 left-0 w-[500px] h-[500px]  bg-black opacity-60 rounded-br-full blur-3xl "></div>
                 <div className=" hidden lg:block absolute bottom-0 right-0 w-[500px] h-[500px]  bg-black opacity-60 rounded-tl-full blur-3xl "></div>
