@@ -13,6 +13,10 @@ export const metadata = {
   metadataBase: new URL(`${process.env.NEXT_PUBLIC_BASE_URL}`),
   alternates: {
     canonical: "/fr",
+    languages: {
+      ar: "/ar",
+    },
+
   },
   openGraph: {
     title: "Morocco Falcon Club - Fauconnerie au Maroc",
