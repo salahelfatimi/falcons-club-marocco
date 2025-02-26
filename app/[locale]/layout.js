@@ -12,7 +12,7 @@ export const metadata = {
   keywords: ["Morocco Falcon Club, fauconnerie au Maroc, dressage de faucons, élevage de faucons, club de fauconnerie, faucons de chasse, tradition de la fauconnerie, passion pour les faucons, rapaces"],
   metadataBase: new URL(`${process.env.NEXT_PUBLIC_BASE_URL}`),
   alternates: {
-    canonical: "/",
+    canonical: "/fr",
   },
   openGraph: {
     title: "Morocco Falcon Club - Fauconnerie au Maroc",
