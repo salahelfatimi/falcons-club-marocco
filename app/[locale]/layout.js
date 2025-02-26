@@ -1,4 +1,8 @@
-import "./globals.css";
+import "../globals.css";
+import {NextIntlClientProvider} from 'next-intl';
+import {getMessages} from 'next-intl/server';
+import {routing} from '@/i18n/routing';
+import { notFound } from "next/navigation";
 
 
 
@@ -34,13 +38,18 @@ export const metadata = {
 };
 
 
-export default function RootLayout({ children }) {
+export default async  function RootLayout({ children , params }) {
+  const { locale } = await params;
+  if (!routing.locales.includes(locale)) {
+    notFound();
+  }
+  const messages = await getMessages();
   return (
-    <html lang="en">
-      <body
-        className={` antialiased cursor-custom`}
-      >
-        {children}
+    <html lang={locale}>
+      <body className={` antialiased cursor-custom`}>
+        <NextIntlClientProvider messages={messages}>
+          {children}
+        </NextIntlClientProvider>
       </body>
     </html>
   );

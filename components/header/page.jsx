@@ -5,8 +5,10 @@ import MagneticButtonFramer from "../tools/magnetic-button-framer/page";
 import { useRef } from 'react';
 import React from 'react'
 import Link from "next/link";
+import { useTranslations } from "next-intl";
 
 export default function Header(){
+    const t = useTranslations('HomePage');
     const container = useRef();
     const { scrollYProgress } = useScroll({
       target: container,
@@ -33,18 +35,16 @@ export default function Header(){
                 <div className=" hidden lg:block absolute bottom-0 right-0 w-[500px] h-[500px]  bg-black opacity-60 rounded-tl-full blur-3xl "></div>
 
                 <div className="absolute left-0 right-0  flex flex-col items-center justify-center gap-6 container">
-                    <h1 className="  text-white flex flex-col gap-2 text-6xl lg:text-8xl font-black font-satoshi text-center"> <span className=" text-[#fff] ">MOROCCO</span><span className=" text-[#fff]">FALCON CLUB</span></h1>
+                    <h1 className="  text-white flex flex-col gap-2 text-6xl lg:text-8xl font-black font-satoshi text-center">{t('title')}</h1>
                     <p className=" text-white font-satoshi text-center lg:text-base text-xs">  
-                        La communauté de référence pour les passionnés de fauconnerie au Maroc. <br />
-                        Dédié à l&apos;art, à la tradition et à la passion de la fauconnerie, notre club rassemble experts et amateurs pour célébrer ce patrimoine noble. <br />
-                        Rejoignez-nous pour des événements exclusifs, des sessions d&apos;entraînement et une passion commune pour ces oiseaux majestueux. 
+                        {t('description')}
                     </p>
                     
                     <button 
                         className=" hover:cursor-custom text-xs lg:text-base bg-greenPrimary py-3 px-6 text-white rounded-full  font-satoshi font-bold uppercase hover:bg-[#fff] hover:text-greenPrimary   border-2 border-greenPrimary   duration-700"
                         onClick={handleScrollToContact}
                     >
-                        Rejoignez-nous dès maintenant 🦅
+                        {t('button')}
                     </button>
                     
                 </div>
