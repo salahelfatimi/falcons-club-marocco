@@ -23,9 +23,9 @@ export default function ContactUs() {
                 <p className='text-center text-sm font-satoshi'>{t('Contact.h3')}</p>
                 <p className='text-center text-sm font-satoshi'>{t('Contact.h3_1')}</p>
                 <div className='w-full flex flex-col gap-4'>
-                    <input type="text" name="FullName" id="" className='rounded p-2 px-4 border-2 placeholder:text-sm placeholder:font-satoshi font-satoshi' placeholder={t('Contact.fullName')} />
-                    <input type="email" name="Email" id="" className='rounded p-2 px-4 border-2 placeholder:text-sm placeholder:font-satoshi font-satoshi' placeholder={t('Contact.Email')} />
-                    <input type="tel" name="Phone" id="" className='rounded p-2 px-4 border-2 placeholder:text-sm placeholder:font-satoshi font-satoshi' placeholder={t('Contact.Phone')} />
+                    <input type="text" name="FullName" id="" className={`rounded p-2 px-4 border-2 placeholder:text-sm placeholder:font-satoshi font-satoshi ${locale === "ar" ? "placeholder:text-right" : "placeholder:text-left"} `} placeholder={t('Contact.fullName')} />
+                    <input type="email" name="Email" id="" className={`rounded p-2 px-4 border-2 placeholder:text-sm placeholder:font-satoshi font-satoshi ${locale === "ar" ? "placeholder:text-right" : "placeholder:text-left"}`} placeholder={t('Contact.Email')} />
+                    <input type="tel" name="Phone" id="" className={`rounded p-2 px-4 border-2 placeholder:text-sm placeholder:font-satoshi font-satoshi ${locale === "ar" ? "placeholder:text-right" : "placeholder:text-left"}`} placeholder={t('Contact.Phone')} />
                     <button className='bg-greenPrimary border-2 border-greenPrimary hover:bg-white hover:text-greenPrimary duration-500 p-3 text-white font-satoshi font-bold'>{t('Contact.button')}</button>
                 </div>
             </div>
