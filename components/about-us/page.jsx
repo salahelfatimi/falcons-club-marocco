@@ -18,9 +18,9 @@ export default function AboutUs() {
     return (
         <div className='flex flex-col lg:flex-row gap-10 justify-center items-center'>
             <img src='/img/about/1.png' alt='Morocco Falcon Club' className='lg:w-[50vw] lg:h-[50vw] w-full h-full bg-cover' title="Morocco Falcon Club" />
-            <div className={`container py-10 px-6 font-satoshi ${locale === "ar" ? "text-right" : "text-left"}`}>
+            <div className={`container py-10 px-10 font-satoshi ${locale === "ar" ? "text-right" : "text-left"}`}>
                 <h2 className='text-4xl font-black text-gray-900 mb-6'>{t('Propos.title')}</h2>
-                <div className="flex flex-col gap-8">
+                <div className="flex flex-col gap-8 ">
                     <div>
                         <h3 className="text-xl text-redPrimary font-bold uppercase mb-4">
                             {t('Propos.h3')}
