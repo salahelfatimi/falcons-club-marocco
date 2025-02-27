@@ -22,24 +22,39 @@ export default function AboutUs() {
                 <h2 className='text-4xl font-black text-gray-900 mb-6'>{t('Propos.title')}</h2>
                 <div className="flex flex-col gap-8">
                     <div>
-                        <h3 className="text-xl text-redPrimary font-bold uppercase mb-4">{t('Propos.h3')}</h3>
-                        <ul className="list-none list-outside text-gray-700">
-                            {t.raw('Propos.p2').map((item, index) => (
-                                <li key={index}>{item}</li>
-                            ))}
-                        </ul>
+                        <h3 className="text-xl text-redPrimary font-bold uppercase mb-4">
+                            {t('Propos.h3')}
+                        </h3>
+                        <div dir={locale === "ar" ? "rtl" : "ltr"}>
+                            <ul
+                                className={`list-disc list-outside text-gray-700 ${
+                                    locale === "ar" ? "text-right" : "text-left"
+                                }`}
+                            >
+                                {t.raw('Propos.p2').map((item, index) => (
+                                    <li key={index}>{item}</li>
+                                ))}
+                            </ul>
+                        </div>
                     </div>
                     <div>
-                        <h3 className="text-xl font-bold text-redPrimary uppercase mb-4">{t('Propos.h3_2')}</h3>
-                        <ul className="list-none list-outside text-gray-700">
-                            {t.raw('Propos.p3').map((item, index) => (
-                                <li key={index}>{item}</li>
-                            ))}
-                        </ul>
+                        <h3 className="text-xl font-bold text-redPrimary uppercase mb-4">
+                            {t('Propos.h3_2')}
+                        </h3>
+                        <div dir={locale === "ar" ? "rtl" : "ltr"}>
+                            <ul
+                                className={`list-disc list-outside text-gray-700 ${
+                                    locale === "ar" ? "text-right" : "text-left"
+                                }`}
+                            >
+                                {t.raw('Propos.p3').map((item, index) => (
+                                    <li key={index}>{item}</li>
+                                ))}
+                            </ul>
+                        </div>
                     </div>
                 </div>
-
-                <div className="text-center mt-10 w-full flex items-start">
+                <div className={`text-center mt-10 w-full  flex ${locale === "ar" ? "justify-end" : "justify-start"}`}>
                     <button onClick={handleScrollToContact} className="px-6 py-3 text-xs lg:text-base bg-redPrimary text-white font-bold rounded-lg shadow-md hover:bg-[#fff] hover:text-redPrimary border-2 border-redPrimary duration-700 transition">
                         {t('Propos.button')}
                     </button>

@@ -1,0 +1,38 @@
+{
+    "HomePage": {
+        "title": "MOROCCO FALCON CLUB",
+        "description": "The leading community for falconry enthusiasts in Morocco. Dedicated to the art, tradition, and passion of falconry, our club brings together experts and amateurs to celebrate this noble heritage. Join us for exclusive events, training sessions, and a shared passion for these majestic birds.",
+        "button": "Join us now 🦅",
+        "Propos": {
+            "title": "About Morocco Falcon Club",
+            "h3": "OUR COMMITMENTS:",
+            "p2": [
+                "Wildlife conservation.",
+                "Reintroduction of wildlife species.",
+                "Development and equipment (acclimatization enclosures, tracks, water points, surveillance posts, food supply, plantations...).",
+                "Game management (feeding, watering points, planting...).",
+                "Restocking of game populations.",
+                "In addition to social initiatives, MOROCCO FALCON CLUB is committed to creating direct and stable employment. Employment priority is given to the local population using the lands where the lot is located."
+            ],
+            "h3_2": "OUR ACTIVITIES:",
+            "p3": [
+                "Airport transfer and temporary import admission in agreement with Eaux et Forêts and ONSSA.",
+                "Training program in partnership with the HCEFLCD for staff, particularly on monitoring game populations and hunting regulations.",
+                "Temporary import admission for hunting parties.",
+                "Events & Meetings: Competitions, demonstrations, and outdoor outings.",
+                "Training & Workshops: Learning training techniques and falcon care.",
+                "Networking & Community: A network of enthusiasts sharing their experiences."
+            ],
+            "button": "Join us now 🦅"
+        },
+        "Contact": {
+            "title": "Contact Us",
+            "h3": "Would you like to learn more about falconry in Morocco, participate in our events, or join our community?",
+            "h3_1": "Feel free to contact us!",
+            "Email": "Email address",
+            "Phone": "Phone number",
+            "fullName": "Full name",
+            "button": "Send us a message"
+        }
+    }
+}

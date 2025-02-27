@@ -35,7 +35,7 @@ export default function Header(){
                 <div className=" hidden lg:block absolute bottom-0 right-0 w-[500px] h-[500px]  bg-black opacity-60 rounded-tl-full blur-3xl "></div>
 
                 <div className="absolute left-0 right-0  flex flex-col items-center justify-center gap-6 container">
-                    <h1 className="  text-white flex flex-col gap-2 text-6xl lg:text-8xl font-black font-satoshi text-center">{t('title')}</h1>
+                    <h1 className="  text-white flex flex-col gap-2 text-7xl lg:text-8xl font-black font-satoshi text-center">{t('title')}</h1>
                     <p className=" text-white font-satoshi text-center lg:text-base text-xs">  
                         {t('description')}
                     </p>
