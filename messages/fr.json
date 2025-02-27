@@ -4,27 +4,28 @@
         "description": "La communauté de référence pour les passionnés de fauconnerie au Maroc. Dédié à l'art, à la tradition et à la passion de la fauconnerie, notre club rassemble experts et amateurs pour célébrer ce patrimoine noble. Rejoignez-nous pour des événements exclusifs, des sessions d'entraînement et une passion commune pour ces oiseaux majestueux.",
         "button": "Rejoignez-nous maintenant 🦅",
         "Propos": {
-            "title": "À Propos de Morocco Falcon Club",
+            "title": "À propos du Morocco Falcon Club",
             "h3": "NOS ENGAGEMENTS :",
-            "p2": [
-                "Conservation de la faune sauvage",
-                "Réintroduction d'espèces de la faune sauvage.",
-                "Aménagement et équipement (enclos d'acclimatation, piste, points d'eau, poste de surveillance, aliment, plantations...)",
-                "Aménagement cynégétique (agrainage, abreuvoirs, plantation...)",
-                "Repeuplement en gibier.",
-                "En plus des actions à caractère social, MOROCCO FAUCON CLUB s'engage à créer des emplois directs et stables. La priorité d'emploi est donnée à la population locale usagère des terrains sur lesquels est situé le lot."
-            ],
+            "ul": {
+                "li": "Conservation de la faune.",
+                "li1": "Réintroduction des espèces animales.",
+                "li2": "Développement et équipements (enclos d'acclimatation, pistes, points d'eau, postes de surveillance, alimentation, plantations...).",
+                "li3": "Gestion du gibier (alimentation, points d'eau, plantations...).",
+                "li4": "Réapprovisionnement des populations de gibier.",
+                "li5": "En plus des initiatives sociales, MOROCCO FALCON CLUB s'engage à créer des emplois directs et stables. La priorité à l'emploi est donnée à la population locale utilisant les terres où le lot est situé."
+            },
             "h3_2": "NOS ACTIVITÉS :",
-            "p3": [
-                "Transfert aéroport et Admissions d’importation temporaire en accord avec les Eaux, Forêt et l’ONSSA.",
-                "Programme de formation en partenariat avec le HCEFLCD au profit du personnel notamment en matière de suivi des populations de gibier et de la législation de la chasse.",
-                "Admission d’importation temporaire pour les parties de chasse.",
-                "Événements & Rencontres : Compétitions, démonstrations et sorties en plein air.",
-                "Formations & Ateliers : Apprentissage des techniques de dressage et des soins aux faucons.",
-                "Échanges & Communauté : Un réseau de passionnés partageant leur expérience."
-            ],
-            "button": "Rejoignez-nous dès maintenant 🦅"
+            "ul2": {
+                "li": "Transfert aéroport et admission temporaire d'importation en accord avec les Eaux et Forêts et l'ONSSA.",
+                "li1": "Programme de formation en partenariat avec le HCEFLCD pour le personnel, notamment sur le suivi des populations de gibier et la réglementation de la chasse.",
+                "li2": "Admission temporaire d'importation pour les groupes de chasse.",
+                "li3": "Événements & Rencontres : Compétitions, démonstrations et sorties en plein air.",
+                "li4": "Formations & Ateliers : Apprentissage des techniques d'entraînement et des soins aux faucons.",
+                "li5": "Réseautage & Communauté : Un réseau d'enthousiastes partageant leurs expériences."
+            },
+            "button": "Rejoignez-nous maintenant 🦅"
         },
+
         "Contact": {
             "title": "Contactez-nous",
             "h3": "Vous souhaitez en savoir plus sur la fauconnerie au Maroc, participer à nos événements ou rejoindre notre communauté ?",

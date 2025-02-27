@@ -6,23 +6,24 @@
         "Propos": {
             "title": "About Morocco Falcon Club",
             "h3": "OUR COMMITMENTS:",
-            "p2": [
-                "Wildlife conservation.",
-                "Reintroduction of wildlife species.",
-                "Development and equipment (acclimatization enclosures, tracks, water points, surveillance posts, food supply, plantations...).",
-                "Game management (feeding, watering points, planting...).",
-                "Restocking of game populations.",
-                "In addition to social initiatives, MOROCCO FALCON CLUB is committed to creating direct and stable employment. Employment priority is given to the local population using the lands where the lot is located."
-            ],
+            "ul": {
+                "li":"Wildlife conservation.",
+                "li1":"Reintroduction of wildlife species.",
+                "li2":"Development and equipment (acclimatization enclosures, tracks, water points, surveillance posts, food supply, plantations...).",
+                "li3":"Game management (feeding, watering points, planting...).",
+                "li4":"Restocking of game populations.",
+                "li5":"In addition to social initiatives, MOROCCO FALCON CLUB is committed to creating direct and stable employment. Employment priority is given to the local population using the lands where the lot is located."
+            },
             "h3_2": "OUR ACTIVITIES:",
-            "p3": [
-                "Airport transfer and temporary import admission in agreement with Eaux et Forêts and ONSSA.",
-                "Training program in partnership with the HCEFLCD for staff, particularly on monitoring game populations and hunting regulations.",
-                "Temporary import admission for hunting parties.",
-                "Events & Meetings: Competitions, demonstrations, and outdoor outings.",
-                "Training & Workshops: Learning training techniques and falcon care.",
-                "Networking & Community: A network of enthusiasts sharing their experiences."
-            ],
+            "ul2": {
+                "li":"Airport transfer and temporary import admission in agreement with Eaux et Forêts and ONSSA.",
+                "li1":"Training program in partnership with the HCEFLCD for staff, particularly on monitoring game populations and hunting regulations.",
+                "li2":"Temporary import admission for hunting parties.",
+                "li3":"Events & Meetings: Competitions, demonstrations, and outdoor outings.",
+                "li4":"Training & Workshops: Learning training techniques and falcon care.",
+                "li5":"Networking & Community: A network of enthusiasts sharing their experiences."
+            }
+            ,
             "button": "Join us now 🦅"
         },
         "Contact": {

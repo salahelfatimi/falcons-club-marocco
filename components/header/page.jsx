@@ -6,8 +6,12 @@ import { useRef } from 'react';
 import React from 'react'
 import Link from "next/link";
 import { useTranslations } from "next-intl";
+import LanguageSwitcher from "../navbar/languageSwitcher";
+import { useParams } from "next/navigation";
 
 export default function Header(){
+    const params = useParams();
+    const { locale } = params;
     const t = useTranslations('HomePage');
     const container = useRef();
     const { scrollYProgress } = useScroll({
@@ -26,6 +30,9 @@ export default function Header(){
   
     return (
         <header className=" overflow-hidden h-screen  relative  ">
+            <div className=" fixed left-6 z-50 bottom-6">
+                <LanguageSwitcher localeSelect={locale} />
+            </div>
             <motion.div style={{y}} className='relative h-full items-center justify-start flex '>
                 <video className="absolute top-0 left-0 w-full h-full object-cover" autoPlay loop playsInline muted>
                     <source src="/vid/header_vid.mp4" type="video/mp4" />
@@ -48,7 +55,7 @@ export default function Header(){
                     </button>
                     
                 </div>
-                <div className="flex flex-row items-center justify-end w-full gap-6 absolute bottom-0 right-0  p-10">
+                <div className="flex flex-row items-center justify-end w-full gap-4 absolute bottom-6 right-6  ">
                     <MagneticButtonFramer>
                         <Link href={'#'} ><Instagram className=" stroke-greenPrimary w-6 h-6 " size={40} /></Link>
                     </MagneticButtonFramer>
@@ -58,9 +65,9 @@ export default function Header(){
                     <MagneticButtonFramer>
                         <Link href={'#'}><Mail className=" stroke-greenPrimary  w-6 h-6" size={40} /></Link>
                     </MagneticButtonFramer>
-                    <MagneticButtonFramer>
+                    {/* <MagneticButtonFramer>
                         <Link href={'#'}><Youtube className=" stroke-greenPrimary  w-6 h-6" size={40} /></Link>
-                    </MagneticButtonFramer>
+                    </MagneticButtonFramer> */}
                 </div>
             </motion.div>
             </header>

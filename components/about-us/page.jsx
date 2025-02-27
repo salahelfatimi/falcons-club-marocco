@@ -1,6 +1,6 @@
 'use client'
 
-import { BadgeInfo, ChartArea, CircleAlert } from "lucide-react";
+import { BadgeInfo, ChartArea, CircleAlert, GraduationCap } from "lucide-react";
 import { useTranslations } from "next-intl";
 import { useParams } from "next/navigation";
 
@@ -28,9 +28,12 @@ export default function AboutUs() {
                         </h3>
                         <div dir={locale === "ar" ? "rtl" : "ltr"}>
                             <ul className={` list-outside text-gray-700 ${locale === "ar" ? "text-right" : "text-left"} space-y-2`}>
-                                {t.raw('Propos.p2').map((item, index) => (
-                                    <li key={index} className={` flex flex-row gap-2`}><CircleAlert className=" max-w-5 min-w-5 stroke-greenPrimary"/>{item}</li>
-                                ))}
+                                <li  className={` flex flex-row gap-2`}><CircleAlert className=" max-w-5 min-w-5 stroke-greenPrimary"/>{t('Propos.ul.li')}</li>
+                                <li  className={` flex flex-row gap-2`}><CircleAlert className=" max-w-5 min-w-5 stroke-greenPrimary"/>{t('Propos.ul.li1')}</li>
+                                <li  className={` flex flex-row gap-2`}><CircleAlert className=" max-w-5 min-w-5 stroke-greenPrimary"/>{t('Propos.ul.li2')}</li>
+                                <li  className={` flex flex-row gap-2`}><CircleAlert className=" max-w-5 min-w-5 stroke-greenPrimary"/>{t('Propos.ul.li3')}</li>
+                                <li  className={` flex flex-row gap-2`}><CircleAlert className=" max-w-5 min-w-5 stroke-greenPrimary"/>{t('Propos.ul.li4')}</li>
+                                <li  className={` flex flex-row gap-2`}><CircleAlert className=" max-w-5 min-w-5 stroke-greenPrimary"/>{t('Propos.ul.li5')}</li>
                             </ul>
                         </div>
                     </div>
@@ -40,9 +43,12 @@ export default function AboutUs() {
                         </h3>
                         <div dir={locale === "ar" ? "rtl" : "ltr"}>
                             <ul className={`list-disc list-outside text-gray-700 ${locale === "ar" ? "text-right" : "text-left"} space-y-2`}>
-                                {t.raw('Propos.p3').map((item, index) => (
-                                    <li key={index}className={` flex flex-row gap-2`}><CircleAlert className=" max-w-5 min-w-5 stroke-greenPrimary"/>{item}</li>
-                                ))}
+                                <li  className={` flex flex-row gap-2`}><CircleAlert className=" max-w-5 min-w-5 stroke-greenPrimary"/>{t('Propos.ul2.li')}</li>
+                                <li  className={` flex flex-row gap-2`}><GraduationCap  className=" max-w-5 min-w-5 stroke-greenPrimary"/>{t('Propos.ul2.li1')}</li>
+                                <li  className={` flex flex-row gap-2`}><CircleAlert className=" max-w-5 min-w-5 stroke-greenPrimary"/>{t('Propos.ul2.li2')}</li>
+                                <li  className={` flex flex-row gap-2`}><CircleAlert className=" max-w-5 min-w-5 stroke-greenPrimary"/>{t('Propos.ul2.li3')}</li>
+                                <li  className={` flex flex-row gap-2`}><CircleAlert className=" max-w-5 min-w-5 stroke-greenPrimary"/>{t('Propos.ul2.li4')}</li>
+                                <li  className={` flex flex-row gap-2`}><CircleAlert className=" max-w-5 min-w-5 stroke-greenPrimary"/>{t('Propos.ul2.li5')}</li>
                             </ul>
                         </div>
                     </div>

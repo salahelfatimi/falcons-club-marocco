@@ -7,7 +7,7 @@ import Header from "@/components/header/page";
 import Navbar from "@/components/navbar/navbar";
 import Footer from '@/components/footer/footer';
 
-export default function Home() {
+export default  function Home() {
   useEffect( () => {
     const lenis = new Lenis()
 
@@ -20,6 +20,7 @@ export default function Home() {
   }, [])
   return (
     <main>   
+      
         <Navbar/> 
         <Header/>
         <AboutUs/>
