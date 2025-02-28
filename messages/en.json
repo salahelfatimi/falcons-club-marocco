@@ -34,6 +34,11 @@
             "Phone": "Phone number",
             "fullName": "Full name",
             "button": "Send us a message"
+        },
+        "Footer": {
+            "copyright":"Copyright",
+            "title": "MOROCCO FALCON CLUB",
+            "p": "All rights reserved"
         }
     }
 }

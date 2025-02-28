@@ -34,6 +34,12 @@
             "Phone": "Numéro de téléphone",
             "fullName": "Nom complet",
             "button": "Envoyez-nous un message"
+        },
+
+        "Footer": {
+            "copyright":"All rights reserved",
+            "title": "MOROCCO FALCON CLUB",
+            "p": " Touts les droits sont réservés"
         }
 
     }

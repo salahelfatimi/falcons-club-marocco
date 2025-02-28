@@ -46,14 +46,9 @@ export default function Header(){
                     <p className=" text-white font-satoshi text-center lg:text-base text-xs">  
                         {t('description')}
                     </p>
-                    
-                    <button 
-                        className=" hover:cursor-custom text-xs lg:text-base bg-greenPrimary py-3 px-6 text-white rounded-full  font-satoshi font-bold uppercase hover:bg-[#fff] hover:text-greenPrimary   border-2 border-greenPrimary   duration-700"
-                        onClick={handleScrollToContact}
-                    >
+                    <button className=" hover:cursor-custom text-xs lg:text-base bg-greenPrimary py-3 px-6 text-white rounded-full  font-satoshi font-bold uppercase hover:bg-[#fff] hover:text-greenPrimary   border-2 border-greenPrimary   duration-700" onClick={handleScrollToContact}>
                         {t('button')}
                     </button>
-                    
                 </div>
                 <div className="flex flex-row items-center justify-end w-full gap-4 absolute bottom-6 right-6  ">
                     <MagneticButtonFramer>
