@@ -33,6 +33,7 @@
             "Email": "Email address",
             "Phone": "Phone number",
             "fullName": "Full name",
+            "comment":"comment",
             "button": "Send us a message"
         },
         "Footer": {
