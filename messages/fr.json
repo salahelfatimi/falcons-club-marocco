@@ -34,7 +34,8 @@
             "Phone": "Numéro de téléphone",
             "fullName": "Nom complet",
             "comment":"commentaire",
-            "button": "Envoyez-nous un message"
+            "button": "Envoyez-nous un message",
+            "sending":"Envoi en cours..."
         },
 
         "Footer": {
