@@ -6,12 +6,12 @@ export const EmailTemplate = ({
   comment,
 }) => (
   <div>
-    <p><strong>Nom complet : </strong>{fullName}</p>
-    <p>Vous avez reçu un message de contact intéressé par vos services sur le site MOROCCO FALCON CLUB :</p>
+    <p><strong>Full name :</strong>{fullName}</p>
+    <p>You have received a message from a contact interested in your services on the MOROCCO FALCON CLUB website:</p>
     <div>
-      <p><strong>Email : </strong>{email || "Email non fourni par le client"}</p>
-      <p><strong>Téléphone : </strong>{Phone || "Téléphone non fourni par le client"}</p>
-      <p><strong>Message : </strong>{comment || "Aucun message fourni par le client"}</p>
+      <p><strong>Email : </strong>{email}</p>
+      <p><strong>Phone : </strong>{Phone}</p>
+      <p><strong>Message : </strong>{comment || "No message provided by customer"}</p>
     </div>
    
   </div>
