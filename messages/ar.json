@@ -35,7 +35,7 @@
             "fullName": "الاسم الكامل",
             "comment":"تعليق",
             "button": "أرسلوا لنا رسالة",
-             "sending":"إرسال"
+            "sending":"إرسال"
         },
         "Footer": {
             "copyright":"حقوق الطبع والنشر",

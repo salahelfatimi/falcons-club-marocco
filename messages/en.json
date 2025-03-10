@@ -29,13 +29,13 @@
         "Contact": {
             "title": "Contact Us",
             "h3": "Would you like to learn more about falconry in Morocco, participate in our events, or join our community?",
-            "h3_1": "Feel free to contact us!",
+            "h3_1": "Feel free to contact us ! ",
             "Email": "Email address",
             "Phone": "Phone number",
             "fullName": "Full name",
             "comment":"comment",
             "button": "Send us a message",
-             "sending":"Sending..."
+            "sending":"Sending..."
         },
         "Footer": {
             "copyright":"Copyright",
